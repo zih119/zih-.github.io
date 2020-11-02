@@ -1,0 +1,133 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+}
+body{
+    height: 100%;
+}
+.bg{
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    filter: blur(5px);
+    z-index: -1;
+}
+.bg > img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    text-align: center;
+    padding: 100px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.shadow{
+    text-shadow: 5px 5px 3px rgba(0,0,0,.5)
+}
+.shadow2{
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5)
+}
+
+.container{
+    padding-bottom: 50px;
+    
+}
+.inner{
+    width: 50%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border: 10px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+    display:flex;
+}
+
+.container .left {
+    width: 50%;
+}
+
+.container .right {
+    width: 50%;
+    padding:2% 2% 4% 0%;
+    background-color: rgba(250, 235, 215, 0.76);
+    box-sizing: border-box;
+}
+
+.character{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    padding: 2% 5% 0%;
+    object-fit: cover;
+}
+
+.info-title{
+    width: 100%;
+    height: 10%;
+    padding: 2% 0% 0%;
+    object-fit: cover;
+    font-family:  "微軟正黑體","Helvetica","黑體-繁","Arial","LiHei Pro", sans-serif;
+}
+
+.info-group{
+    padding: 2% 5% 0%;
+    object-fit: cover;
+}
+.info-group div{
+    margin-bottom: 4px;
+}
+
+.name, .work{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h2{
+    margin: 10px 4px;
+    font-family:  "Helvetica","微軟正黑體","黑體-繁","Arial","LiHei Pro", sans-serif;
+    display: inline-block;
+    line-height: 24px;
+}
+p{
+    display: inline-block;
+    margin: 10px 4px;
+    line-height: 24px;
+    text-align: left;
+    font-family:  "Helvetica","微軟正黑體","黑體-繁","Arial","LiHei Pro", sans-serif;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+a{
+    display: flex;
+    align-items: center;
+    margin: 0 2px;
+}
+
+a img{
+    height: 25px;
+
+}
