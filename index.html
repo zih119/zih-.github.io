@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>card_example</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <script>
+        $(document).ready(function() {});
+        $("poster").addClass("animated hinge");
+        $("like").addClass("animated bounce").css("color", "orange");
+    </script>
     <div class="bg">
         <img src="./img/background.jpg">
     </div>
     <div class="title shadow"><h1>青少年中輟</h1></div>
     <div class="container">
         <div class="inner">
-            <div class="left">
+            <div class="left" id="poster">
                 <img class="character" src="./img/11.jpg">
             </div>
             <div class="right">
@@ -57,6 +63,8 @@
             </div>
         </div>
     </div>
-    
+    <div class="col-xs-4" id="like">
+        <button class="btn btn-block btn-primary"><i class="fas fa-thumbs-up"></i> Like</button>
+    </div>
 </body>
 </html>
